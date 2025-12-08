@@ -6,7 +6,7 @@ const mainContianer = document.querySelector('#main-container');
 const loading = document.getElementById('loading')
 const error = document.getElementById('error');
 const form = document.querySelector('form')
-console.log(trackingInput)
+
 
 moblieMenu.addEventListener('click', () => {
     dropMenu.classList.toggle('hidden');
