@@ -637,6 +637,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .block{
   display: block;
 }
@@ -767,6 +771,14 @@ video {
 
 .w-screen{
   width: 100vw;
+}
+
+.w-11{
+  width: 2.75rem;
+}
+
+.w-1{
+  width: 0.25rem;
 }
 
 .transform{
@@ -988,6 +1000,14 @@ video {
 
 .pt-10{
   padding-top: 2.5rem;
+}
+
+.pb-7{
+  padding-bottom: 1.75rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
 }
 
 .text-left{
@@ -1278,6 +1298,12 @@ video {
   .larg\:hover\:text-white:hover{
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  }
+}
+
+@media (min-width: 768px){
+  .md\:w-24{
+    width: 6rem;
   }
 }
 

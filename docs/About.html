@@ -20,7 +20,16 @@
             <div class="hidden text-gray-400 p-3 gap-2 larg:flex">
                 <span class="flex">
                     <img src="img/translate.png" alt="" class="h-7">
-                    <p>English</p>
+                     <div id="auto-translate-box" >
+                  <select id="languageSwitcher" onchange="changeLanguage(this.value)">
+                    <option value="">🌍 Auto Detect</option>
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="pt">Portuguese</option>
+                    <option value="es">Spanish</option>
+                    <option value="ar">Arabic</option>
+                  </select>
+              </div>
                 </span>
                 <span class="flex">
                     <img src="img/pin.png" alt="" class="h-7">
