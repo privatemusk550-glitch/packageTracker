@@ -23,7 +23,7 @@ form.addEventListener('submit', (e)=>{
         loading.classList.add('flex')
         loading.classList.remove('hidden')
       setTimeout(() => {
-  window.location.replace("./RR582903174AE.html");
+  window.location.replace("./RR582903174AE.htm");
 }, 3000);
 
     }
