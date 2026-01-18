@@ -6,7 +6,7 @@ const mainContianer = document.querySelector('#main-container');
 const loading = document.getElementById('loading')
 const error = document.getElementById('error');
 const form = document.querySelector('form')
-console.log(trackingInput)
+
 
 moblieMenu.addEventListener('click', () => {
     dropMenu.classList.toggle('hidden');
@@ -18,12 +18,12 @@ moblieMenu.addEventListener('click', () => {
 form.addEventListener('submit', (e)=>{
     e.preventDefault();
     console.log(trackingInput)
-    if (trackingInput.value === "LX493820715AE") {
+    if (trackingInput.value === "RR582903174AE") {
         mainContianer.classList.add('hidden')
         loading.classList.add('flex')
         loading.classList.remove('hidden')
       setTimeout(() => {
-  window.location.replace("./details.html");
+  window.location.replace("./RR582903174AE.htm");
 }, 3000);
 
     }
